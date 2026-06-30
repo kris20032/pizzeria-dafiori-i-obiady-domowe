@@ -543,3 +543,9 @@ img[src$="/g12.jpg"]{object-position:62% 50%}
 [style*="g12.jpg"]{background-position:62% 50%}
 img[src$="/g13.jpg"]{object-position:33% 50%}
 [style*="g13.jpg"]{background-position:33% 50%}
+
+/* === LOGO DaFiori (z profilu FB) — nav badge + stopka === */
+.brand-logo{height:46px;width:auto;max-width:240px;object-fit:contain;border-radius:8px;display:block}
+.nav.is-stuck .brand-logo,.nav.nav-solid .brand-logo{height:40px}
+@media(max-width:680px){.brand-logo{height:38px}}
+.foot-logo{height:58px;width:auto;border-radius:10px;display:block;margin-bottom:var(--space-4)}
